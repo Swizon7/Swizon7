@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+ padding: 0px;
+ margin: 0px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(8, 8, 8);
+}
+nav ul{
+        list-style: none;
+    }
+
+.top-info{
+    /* border: 2px solid rgb(51, 152, 23); */
+    align-items: center;
+    justify-content:space-between;
+    /* margin-right: 100px; */
+    padding: 15px;
+    /* gap: 30px; */
+display: flex;
+background-color: #D1E3FF;
+
+}
+
+.topbar{
+    /* border: 2px solid rgb(204, 191, 214); */
+    
+}
+li{
+    display: inline;
+    /* border-right: 2px solid  rgb(202, 176, 176); */
+    padding: 0 15px 0  0 ;
+    margin: 0 15px 0 0;
+}
+.grp{
+    /* border: 2px solid red; */
+    width: fit-content;
+    /* padding: 170px; */
+    /* color: rgb(61, 61, 45); */
+    /* flex: 1; */
+}
+.bod-img{
+    /* border: 2px solid red  ; */
+    /* flex: 1; */
+}
+.contact{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.grp-contac{
+    background-color: orange;
+    width: fit-content;
+    color: white;
+    padding-inline: 40px;
+    padding-top: 10px;
+    padding-bottom: 10PX;
+    border-radius:5PX ;
+    /* justify-content: center; */
+}
+.bod{
+    background-color: #D1E3FF;
+}
+.bod-img{
+
+}
+.bod{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+    
+}

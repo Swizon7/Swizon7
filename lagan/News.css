@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  height: 0px;
+  box-sizing: border-box;
+}
+
+.dog {
+  /* border: 2px solid rgb(127, 88, 205);   */
+  width: fit-content;
+}
+.author-detail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.author-detail {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.auth-det {
+  display: flex;
+  gap: 10px;
+}
+/* .auth-det {
+  padding-inline: 05px;
+  padding-top: 20px;
+  font-size: smaller;
+  border: 2px solid red;
+  justify-content: space-between;
+  display: flex;
+  gap: 15px;
+} */
+
+.more a {
+  /* list-style: none; */
+  /* text-decoration: none; */
+  font-size: small;
+  background-color: rgb(73, 200, 209);
+  border-radius: 25px;
+  color: rgb(63, 175, 35);
+  /* padding-inline: 15px;
+  margin-left: 90px; */
+}
+
+/* .maain {
+  display: flex;
+  gap: 30px;
+  padding-left: 100px;
+  padding-top: 75px;
+  padding-right: 95px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  border: 2px solid rgb(218, 120, 120);
+  width: fit-content;
+  margin-top: 75px;
+  margin-left: 150px;
+  margin-right: 20px;
+} */
+
+.maain {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.cat {
+  width: fit-content;
+}
+.maina {
+  /* border: 2px solid rgb(218, 120, 120); */
+  /* width: fit-content; */
+}
+.more {
+  display: flex;
+  justify-content: center;
+}
+.dog img:hover {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%);
+  display: block;
+}
+
+.overlay-cat {
+  border: 1px solid black;
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  transform: translate(50%);
+  background-color: black;
+  color: white;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.image-section:hover .overlay-cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+
+
+.cat,
+.dog,
+.lion {
+  width: 20rem;
+}
+
+/* tablet */
+@media screen and (max-width: 720px) {
+  .maain {
+    flex-wrap: wrap;
+    border: 3px solid black;
+  }
+}
+
+/* mobile */
+
+@media screen and (max-width: 420px) {
+  .maain{
+    flex-wrap: wrap;
+    border: 2px solid red ;
+  }
+}
